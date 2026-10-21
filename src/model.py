@@ -184,7 +184,9 @@ def export(df, pred, scores, calibration):
     out[cols_export].to_csv(OUT / 'matches.csv', index=False)
     out[['match_id'] + FEATURE_COLS].to_csv(OUT / 'features.csv', index=False)
 
-    pred[['match_id', 'y'] + PROB_COLS].to_csv(OUT / 'predictions.csv', index=False)
+    labels = {'p_home': 'H', 'p_draw': 'D', 'p_away': 'A'}
+    pred['pred_result'] = pred[PROB_COLS].dropna().idxmax(axis=1).map(labels)
+    pred[['match_id'] + PROB_COLS + ['pred_result']].to_csv(OUT / 'predictions.csv', index=False)
     scores.rename_axis(['model', 'split']).reset_index().to_csv(OUT / 'metrics.csv', index=False)
     calibration.to_csv(OUT / 'calibration.csv', index=False)
 
