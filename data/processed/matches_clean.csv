@@ -1955,20 +1955,20 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-10-10,Chelsea,Bournemouth,5,1,H,26-27,True,api
 2026-10-10,Ipswich Town,Fulham,2,1,H,26-27,True,api
 2026-10-10,Aston Villa,Brentford,2,2,D,26-27,True,api
-2026-10-11,Liverpool,Manchester City,,,,26-27,False,api
-2026-10-11,Crystal Palace,Nottingham Forest,,,,26-27,False,api
-2026-10-11,Hull City,Everton,,,,26-27,False,api
-2026-10-12,Coventry City,Newcastle United,,,,26-27,False,api
-2026-10-17,Everton,Chelsea,,,,26-27,False,api
-2026-10-17,Fulham,Hull City,,,,26-27,False,api
-2026-10-17,Manchester City,Ipswich Town,,,,26-27,False,api
-2026-10-17,Brentford,Liverpool,,,,26-27,False,api
-2026-10-17,Newcastle United,Aston Villa,,,,26-27,False,api
-2026-10-18,Bournemouth,Sunderland,,,,26-27,False,api
-2026-10-18,Leeds United,Manchester United,,,,26-27,False,api
-2026-10-18,Brighton & Hove Albion,Crystal Palace,,,,26-27,False,api
-2026-10-18,Nottingham Forest,Arsenal,,,,26-27,False,api
-2026-10-19,Tottenham Hotspur,Coventry City,,,,26-27,False,api
+2026-10-11,Liverpool,Manchester City,0,3,A,26-27,True,api
+2026-10-11,Crystal Palace,Nottingham Forest,3,1,H,26-27,True,api
+2026-10-11,Hull City,Everton,2,2,D,26-27,True,api
+2026-10-12,Coventry City,Newcastle United,4,1,H,26-27,True,api
+2026-10-17,Everton,Chelsea,0,2,A,26-27,True,api
+2026-10-17,Fulham,Hull City,1,0,H,26-27,True,api
+2026-10-17,Manchester City,Ipswich Town,3,2,H,26-27,True,api
+2026-10-17,Brentford,Liverpool,1,2,A,26-27,True,api
+2026-10-17,Newcastle United,Aston Villa,0,1,A,26-27,True,api
+2026-10-18,Bournemouth,Sunderland,2,0,H,26-27,True,api
+2026-10-18,Leeds United,Manchester United,1,1,D,26-27,True,api
+2026-10-18,Brighton & Hove Albion,Crystal Palace,5,0,H,26-27,True,api
+2026-10-18,Nottingham Forest,Arsenal,0,1,A,26-27,True,api
+2026-10-19,Tottenham Hotspur,Coventry City,3,1,H,26-27,True,api
 2026-10-23,Ipswich Town,Nottingham Forest,,,,26-27,False,api
 2026-10-24,Chelsea,Tottenham Hotspur,,,,26-27,False,api
 2026-10-24,Coventry City,Fulham,,,,26-27,False,api
@@ -2019,46 +2019,46 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-11-29,Sunderland,Tottenham Hotspur,,,,26-27,False,api
 2026-11-29,Crystal Palace,Hull City,,,,26-27,False,api
 2026-11-29,Arsenal,Manchester City,,,,26-27,False,api
-2026-12-02,Coventry City,Ipswich Town,,,,26-27,False,api
-2026-12-02,Bournemouth,Brighton & Hove Albion,,,,26-27,False,api
-2026-12-02,Manchester City,Leeds United,,,,26-27,False,api
+2026-12-01,Coventry City,Ipswich Town,,,,26-27,False,api
 2026-12-02,Brentford,Arsenal,,,,26-27,False,api
 2026-12-02,Newcastle United,Manchester United,,,,26-27,False,api
+2026-12-02,Aston Villa,Everton,,,,26-27,False,api
+2026-12-02,Bournemouth,Brighton & Hove Albion,,,,26-27,False,api
 2026-12-02,Chelsea,Crystal Palace,,,,26-27,False,api
 2026-12-02,Hull City,Nottingham Forest,,,,26-27,False,api
 2026-12-02,Liverpool,Sunderland,,,,26-27,False,api
-2026-12-02,Tottenham Hotspur,Fulham,,,,26-27,False,api
-2026-12-02,Aston Villa,Everton,,,,26-27,False,api
-2026-12-05,Everton,Fulham,,,,26-27,False,api
-2026-12-05,Nottingham Forest,Brighton & Hove Albion,,,,26-27,False,api
-2026-12-05,Aston Villa,Crystal Palace,,,,26-27,False,api
-2026-12-05,Bournemouth,Hull City,,,,26-27,False,api
-2026-12-05,Brentford,Manchester City,,,,26-27,False,api
+2026-12-02,Manchester City,Leeds United,,,,26-27,False,api
+2026-12-03,Tottenham Hotspur,Fulham,,,,26-27,False,api
 2026-12-05,Chelsea,Liverpool,,,,26-27,False,api
-2026-12-05,Leeds United,Ipswich Town,,,,26-27,False,api
 2026-12-05,Manchester United,Coventry City,,,,26-27,False,api
-2026-12-05,Tottenham Hotspur,Arsenal,,,,26-27,False,api
-2026-12-05,Newcastle United,Sunderland,,,,26-27,False,api
+2026-12-05,Leeds United,Ipswich Town,,,,26-27,False,api
+2026-12-05,Bournemouth,Hull City,,,,26-27,False,api
+2026-12-05,Aston Villa,Crystal Palace,,,,26-27,False,api
+2026-12-05,Nottingham Forest,Brighton & Hove Albion,,,,26-27,False,api
+2026-12-05,Brentford,Manchester City,,,,26-27,False,api
+2026-12-06,Newcastle United,Sunderland,,,,26-27,False,api
+2026-12-06,Everton,Fulham,,,,26-27,False,api
+2026-12-06,Tottenham Hotspur,Arsenal,,,,26-27,False,api
 2026-12-12,Fulham,Brentford,,,,26-27,False,api
-2026-12-12,Liverpool,Leeds United,,,,26-27,False,api
 2026-12-12,Manchester City,Chelsea,,,,26-27,False,api
-2026-12-12,Arsenal,Bournemouth,,,,26-27,False,api
-2026-12-12,Coventry City,Aston Villa,,,,26-27,False,api
-2026-12-12,Brighton & Hove Albion,Everton,,,,26-27,False,api
-2026-12-12,Hull City,Tottenham Hotspur,,,,26-27,False,api
-2026-12-12,Crystal Palace,Manchester United,,,,26-27,False,api
-2026-12-12,Sunderland,Nottingham Forest,,,,26-27,False,api
 2026-12-12,Ipswich Town,Newcastle United,,,,26-27,False,api
-2026-12-19,Chelsea,Aston Villa,,,,26-27,False,api
+2026-12-12,Liverpool,Leeds United,,,,26-27,False,api
+2026-12-13,Sunderland,Nottingham Forest,,,,26-27,False,api
+2026-12-13,Brighton & Hove Albion,Everton,,,,26-27,False,api
+2026-12-13,Arsenal,Bournemouth,,,,26-27,False,api
+2026-12-13,Coventry City,Aston Villa,,,,26-27,False,api
+2026-12-13,Crystal Palace,Manchester United,,,,26-27,False,api
+2026-12-14,Hull City,Tottenham Hotspur,,,,26-27,False,api
 2026-12-19,Liverpool,Tottenham Hotspur,,,,26-27,False,api
-2026-12-19,Arsenal,Manchester United,,,,26-27,False,api
 2026-12-19,Bournemouth,Coventry City,,,,26-27,False,api
-2026-12-19,Sunderland,Crystal Palace,,,,26-27,False,api
 2026-12-19,Manchester City,Hull City,,,,26-27,False,api
 2026-12-19,Nottingham Forest,Everton,,,,26-27,False,api
-2026-12-19,Brighton & Hove Albion,Ipswich Town,,,,26-27,False,api
-2026-12-19,Leeds United,Fulham,,,,26-27,False,api
 2026-12-19,Brentford,Newcastle United,,,,26-27,False,api
+2026-12-19,Leeds United,Fulham,,,,26-27,False,api
+2026-12-20,Brighton & Hove Albion,Ipswich Town,,,,26-27,False,api
+2026-12-20,Sunderland,Crystal Palace,,,,26-27,False,api
+2026-12-20,Arsenal,Manchester United,,,,26-27,False,api
+2026-12-21,Chelsea,Aston Villa,,,,26-27,False,api
 2026-12-26,Hull City,Liverpool,,,,26-27,False,api
 2026-12-26,Newcastle United,Manchester City,,,,26-27,False,api
 2026-12-26,Ipswich Town,Brentford,,,,26-27,False,api
