@@ -28,7 +28,7 @@ def freeze():
     
     if os.path.exists(LOG):
         old = pd.read_csv(LOG)
-        new = new.merge(old[KEY], on='KEY', how='left', indicator=True)
+        new = new.merge(old[KEY], on=KEY, how='left', indicator=True)
         new = new[new['_merge' == 'left_only']].drop(columns='merge')
     else:
         old = pd.DataFrame()
