@@ -1969,7 +1969,7 @@ match_id,date,home_team_id,away_team_id,home_goals,away_goals,result,season,play
 1967,2026-10-18,14,19,1.0,1.0,D,26-27,True,test
 1968,2026-10-18,22,1,0.0,1.0,A,26-27,True,test
 1969,2026-10-19,26,8,3.0,1.0,H,26-27,True,test
-1970,2026-10-23,13,22,,,,26-27,False,pending
+1970,2026-10-23,13,22,1.0,1.0,D,26-27,True,test
 1971,2026-10-24,1,10,,,,26-27,False,pending
 1972,2026-10-24,2,18,,,,26-27,False,pending
 1973,2026-10-24,7,26,,,,26-27,False,pending
