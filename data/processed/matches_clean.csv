@@ -1970,10 +1970,10 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-10-18,Nottingham Forest,Arsenal,0,1,A,26-27,True,api
 2026-10-19,Tottenham Hotspur,Coventry City,3,1,H,26-27,True,api
 2026-10-23,Ipswich Town,Nottingham Forest,1,1,D,26-27,True,api
-2026-10-24,Chelsea,Tottenham Hotspur,,,,26-27,False,api
-2026-10-24,Coventry City,Fulham,,,,26-27,False,api
-2026-10-24,Aston Villa,Manchester City,,,,26-27,False,api
-2026-10-24,Arsenal,Everton,,,,26-27,False,api
+2026-10-24,Chelsea,Tottenham Hotspur,0,2,A,26-27,True,api
+2026-10-24,Coventry City,Fulham,0,1,A,26-27,True,api
+2026-10-24,Aston Villa,Manchester City,2,1,H,26-27,True,api
+2026-10-24,Arsenal,Everton,2,0,H,26-27,True,api
 2026-10-25,Liverpool,Brighton & Hove Albion,,,,26-27,False,api
 2026-10-25,Crystal Palace,Newcastle United,,,,26-27,False,api
 2026-10-25,Manchester United,Bournemouth,,,,26-27,False,api
