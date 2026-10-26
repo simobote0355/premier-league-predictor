@@ -1974,11 +1974,11 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-10-24,Coventry City,Fulham,0,1,A,26-27,True,api
 2026-10-24,Aston Villa,Manchester City,2,1,H,26-27,True,api
 2026-10-24,Arsenal,Everton,2,0,H,26-27,True,api
-2026-10-25,Liverpool,Brighton & Hove Albion,,,,26-27,False,api
-2026-10-25,Crystal Palace,Newcastle United,,,,26-27,False,api
-2026-10-25,Manchester United,Bournemouth,,,,26-27,False,api
-2026-10-25,Hull City,Brentford,,,,26-27,False,api
-2026-10-25,Sunderland,Leeds United,,,,26-27,False,api
+2026-10-25,Liverpool,Brighton & Hove Albion,2,0,H,26-27,True,api
+2026-10-25,Crystal Palace,Newcastle United,0,2,A,26-27,True,api
+2026-10-25,Manchester United,Bournemouth,0,3,A,26-27,True,api
+2026-10-25,Hull City,Brentford,1,1,D,26-27,True,api
+2026-10-25,Sunderland,Leeds United,0,0,D,26-27,True,api
 2026-10-31,Aston Villa,Fulham,,,,26-27,False,api
 2026-10-31,Chelsea,Manchester United,,,,26-27,False,api
 2026-10-31,Manchester City,Brighton & Hove Albion,,,,26-27,False,api
