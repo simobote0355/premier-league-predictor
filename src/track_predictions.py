@@ -7,7 +7,7 @@ MATCHES = 'data/powerbi/matches.csv'
 PREDS = 'data/powerbi/predictions.csv'
 LOG = 'data/processed/predictions_log.csv'
 KEY = ['season', 'home_team_id', 'away_team_id']
-DAYS_AHEAD = 7
+DAYS_AHEAD = 3
 RESULT_COLS = ['home_goals', 'away_goals', 'result']
 PROBS = ['p_home', 'p_draw', 'p_away']
 
@@ -16,7 +16,7 @@ def freeze():
     'Add upcoming matches to the log. Existing rows are never touched.'
     matches = pd.read_csv(MATCHES)
     matches['date'] = pd.to_datetime(matches['date'], utc=True)
-    preds = pd.read_csv(PREDS)[['match_id'] + PROBS]
+    preds = pd.read_csv(PREDS)[['match_id'] + PROBS + ['model']]
 
     # Only matches that have not started and are within the next DAYS_AHEAD days
     now = pd.Timestamp.now(tz='UTC')
@@ -25,7 +25,7 @@ def freeze():
         & (matches['date'] > now)
         & (matches['date'] <= now + pd.Timedelta(days=DAYS_AHEAD))
     ]
-    new = upcoming.merge(preds, on='match_id')[KEY + ['date'] + PROBS]
+    new = upcoming.merge(preds, on='match_id')[KEY + ['date'] + PROBS + ['model']]
 
     # Skip matches already in the log
     if os.path.exists(LOG):
@@ -54,6 +54,7 @@ def score():
     pending = pending.merge(played, on=KEY, how='left')
 
     log = pd.concat([scored, pending]).sort_values('date')
+    log["pred_result"] = log[PROBS].idxmax(axis=1).map({"p_home": "H", "p_draw": "D", "p_away": "A"})
     log.to_csv(LOG, index=False)
 
     done = log.dropna(subset=['result'])
