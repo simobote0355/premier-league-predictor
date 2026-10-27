@@ -26,6 +26,9 @@ def freeze():
         & (matches['date'] <= now + pd.Timedelta(days=DAYS_AHEAD))
     ]
     new = upcoming.merge(preds, on='match_id')[KEY + ['date'] + PROBS + ['model']]
+    missing = new[PROBS[0]].isna().sum()
+    if missing:
+        print(f'WARNING: {missing} upcoming matches have no prediction')
 
     # Skip matches already in the log
     if os.path.exists(LOG):
