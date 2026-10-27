@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, log_loss
 from config import PROCESSED_DIR, ROOT
 from features import FEATURE_COLS
 
-OUT = ROOT / 'data' / 'powerbi'    # different folder from the input
+OUT = ROOT / 'data' / 'powerbi'
 
 # Temporal cutoffs: everything before VAL_START is train.
 VAL_START = '2024-07-01'
@@ -43,8 +43,8 @@ def load_data():
 def get_models():
     '''Baseline and candidate models, all unfitted.'''
     return {
-        'Dummy Prior': DummyClassifier(strategy='prior'),
-        'Dummy Uniform': DummyClassifier(strategy='uniform'),
+        'Dummy Prior': DummyClassifier(strategy='prior', random_state=SEED),
+        'Dummy Uniform': DummyClassifier(strategy='uniform', random_state=SEED),
         'Dummy Stratified': DummyClassifier(strategy='stratified'),
         'Dummy Most Frequent': DummyClassifier(strategy='most_frequent'),
         'Dummy Constant=1': DummyClassifier(strategy='constant', constant=1),
@@ -169,7 +169,7 @@ def calibration_table(pred, split, n_bins=5):
     return pd.concat(rows, ignore_index=True).round(3)
 
 
-def export(df, pred, scores, calibration):
+def export(df, pred, scores, calibration, best_model):
     '''Write the CSV tables that Power BI will read.'''
     OUT.mkdir(parents=True, exist_ok=True)
 
@@ -186,7 +186,8 @@ def export(df, pred, scores, calibration):
 
     labels = {'p_home': 'H', 'p_draw': 'D', 'p_away': 'A'}
     pred['pred_result'] = pred[PROB_COLS].dropna().idxmax(axis=1).map(labels)
-    pred[['match_id'] + PROB_COLS + ['pred_result']].to_csv(OUT / 'predictions.csv', index=False)
+    pred['model'] = best_model
+    pred[['match_id'] + PROB_COLS + ['pred_result', 'model']].to_csv(OUT / 'predictions.csv', index=False)
     scores.rename_axis(['model', 'split']).reset_index().to_csv(OUT / 'metrics.csv', index=False)
     calibration.to_csv(OUT / 'calibration.csv', index=False)
 
@@ -223,7 +224,7 @@ def main():
     print(calibration.groupby('class')['ece'].sum().round(3))
     print('-'*100)
 
-    export(df, pred, scores, calibration)
+    export(df, pred, scores, calibration, best)
 
 
 if __name__ == '__main__':
