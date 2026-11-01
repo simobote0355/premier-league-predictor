@@ -1979,14 +1979,14 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-10-25,Manchester United,Bournemouth,0,3,A,26-27,True,api
 2026-10-25,Hull City,Brentford,1,1,D,26-27,True,api
 2026-10-25,Sunderland,Leeds United,0,0,D,26-27,True,api
-2026-10-31,Aston Villa,Fulham,,,,26-27,False,api
-2026-10-31,Chelsea,Manchester United,,,,26-27,False,api
-2026-10-31,Manchester City,Brighton & Hove Albion,,,,26-27,False,api
-2026-10-31,Bournemouth,Leeds United,,,,26-27,False,api
-2026-10-31,Coventry City,Sunderland,,,,26-27,False,api
-2026-10-31,Hull City,Ipswich Town,,,,26-27,False,api
-2026-10-31,Brentford,Nottingham Forest,,,,26-27,False,api
-2026-10-31,Tottenham Hotspur,Crystal Palace,,,,26-27,False,api
+2026-10-31,Aston Villa,Fulham,1,1,D,26-27,True,api
+2026-10-31,Chelsea,Manchester United,2,0,H,26-27,True,api
+2026-10-31,Manchester City,Brighton & Hove Albion,0,1,A,26-27,True,api
+2026-10-31,Bournemouth,Leeds United,2,0,H,26-27,True,api
+2026-10-31,Coventry City,Sunderland,3,1,H,26-27,True,api
+2026-10-31,Hull City,Ipswich Town,2,2,D,26-27,True,api
+2026-10-31,Brentford,Nottingham Forest,2,0,H,26-27,True,api
+2026-10-31,Tottenham Hotspur,Crystal Palace,2,0,H,26-27,True,api
 2026-11-01,Liverpool,Arsenal,,,,26-27,False,api
 2026-11-02,Newcastle United,Everton,,,,26-27,False,api
 2026-11-06,Everton,Coventry City,,,,26-27,False,api
