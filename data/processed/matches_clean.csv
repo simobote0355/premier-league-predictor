@@ -1987,7 +1987,7 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-10-31,Hull City,Ipswich Town,2,2,D,26-27,True,api
 2026-10-31,Brentford,Nottingham Forest,2,0,H,26-27,True,api
 2026-10-31,Tottenham Hotspur,Crystal Palace,2,0,H,26-27,True,api
-2026-11-01,Liverpool,Arsenal,,,,26-27,False,api
+2026-11-01,Liverpool,Arsenal,0,1,A,26-27,True,api
 2026-11-02,Newcastle United,Everton,,,,26-27,False,api
 2026-11-06,Everton,Coventry City,,,,26-27,False,api
 2026-11-07,Nottingham Forest,Manchester City,,,,26-27,False,api

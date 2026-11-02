@@ -1987,7 +1987,7 @@ match_id,date,home_team_id,away_team_id,home_goals,away_goals,result,season,play
 1985,2026-10-31,12,13,2.0,2.0,D,26-27,True,test
 1986,2026-10-31,18,5,0.0,1.0,A,26-27,True,test
 1987,2026-10-31,26,9,2.0,0.0,H,26-27,True,test
-1988,2026-11-01,16,1,,,,26-27,False,pending
+1988,2026-11-01,16,1,0.0,1.0,A,26-27,True,test
 1989,2026-11-02,20,10,,,,26-27,False,pending
 1990,2026-11-06,10,8,,,,26-27,False,pending
 1991,2026-11-07,1,12,,,,26-27,False,pending
