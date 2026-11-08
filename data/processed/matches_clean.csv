@@ -1990,10 +1990,10 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-11-01,Liverpool,Arsenal,0,1,A,26-27,True,api
 2026-11-02,Newcastle United,Everton,0,1,A,26-27,True,api
 2026-11-06,Everton,Coventry City,3,1,H,26-27,True,api
-2026-11-07,Nottingham Forest,Manchester City,,,,26-27,False,api
-2026-11-07,Fulham,Newcastle United,,,,26-27,False,api
-2026-11-07,Leeds United,Tottenham Hotspur,,,,26-27,False,api
-2026-11-07,Arsenal,Hull City,,,,26-27,False,api
+2026-11-07,Nottingham Forest,Manchester City,3,1,H,26-27,True,api
+2026-11-07,Fulham,Newcastle United,1,1,D,26-27,True,api
+2026-11-07,Leeds United,Tottenham Hotspur,1,0,H,26-27,True,api
+2026-11-07,Arsenal,Hull City,1,0,H,26-27,True,api
 2026-11-08,Crystal Palace,Liverpool,,,,26-27,False,api
 2026-11-08,Sunderland,Chelsea,,,,26-27,False,api
 2026-11-08,Ipswich Town,Bournemouth,,,,26-27,False,api
