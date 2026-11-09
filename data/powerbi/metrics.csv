@@ -1,5 +1,5 @@
 model,split,Log-Loss,Accuracy
 Dummy Prior,val,1.0826,0.4079
-Dummy Prior,test,1.0848,0.4253
+Dummy Prior,test,1.0847,0.425
 RF Base,val,0.9972,0.5263
-RF Base,test,1.0427,0.4842
+RF Base,test,1.0414,0.4854

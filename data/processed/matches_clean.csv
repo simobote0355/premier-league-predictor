@@ -1994,11 +1994,11 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-11-07,Fulham,Newcastle United,1,1,D,26-27,True,api
 2026-11-07,Leeds United,Tottenham Hotspur,1,0,H,26-27,True,api
 2026-11-07,Arsenal,Hull City,1,0,H,26-27,True,api
-2026-11-08,Crystal Palace,Liverpool,,,,26-27,False,api
-2026-11-08,Sunderland,Chelsea,,,,26-27,False,api
-2026-11-08,Ipswich Town,Bournemouth,,,,26-27,False,api
-2026-11-08,Brighton & Hove Albion,Brentford,,,,26-27,False,api
-2026-11-08,Manchester United,Aston Villa,,,,26-27,False,api
+2026-11-08,Crystal Palace,Liverpool,1,3,A,26-27,True,api
+2026-11-08,Sunderland,Chelsea,1,0,H,26-27,True,api
+2026-11-08,Ipswich Town,Bournemouth,1,2,A,26-27,True,api
+2026-11-08,Brighton & Hove Albion,Brentford,2,0,H,26-27,True,api
+2026-11-08,Manchester United,Aston Villa,4,4,D,26-27,True,api
 2026-11-21,Manchester City,Fulham,,,,26-27,False,api
 2026-11-21,Chelsea,Leeds United,,,,26-27,False,api
 2026-11-21,Aston Villa,Sunderland,,,,26-27,False,api
