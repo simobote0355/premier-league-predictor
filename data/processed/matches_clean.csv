@@ -2072,63 +2072,63 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-12-29,Hull City,Leeds United,,,,26-27,False,api
 2026-12-29,Tottenham Hotspur,Brighton & Hove Albion,,,,26-27,False,api
 2026-12-29,Everton,Manchester City,,,,26-27,False,api
-2026-12-30,Aston Villa,Liverpool,,,,26-27,False,api
-2026-12-30,Crystal Palace,Bournemouth,,,,26-27,False,api
-2026-12-30,Manchester United,Sunderland,,,,26-27,False,api
-2026-12-30,Ipswich Town,Chelsea,,,,26-27,False,api
-2026-12-30,Coventry City,Brentford,,,,26-27,False,api
 2026-12-30,Fulham,Arsenal,,,,26-27,False,api
+2026-12-30,Coventry City,Brentford,,,,26-27,False,api
 2026-12-30,Newcastle United,Nottingham Forest,,,,26-27,False,api
+2026-12-30,Manchester United,Sunderland,,,,26-27,False,api
+2026-12-30,Crystal Palace,Bournemouth,,,,26-27,False,api
+2026-12-30,Aston Villa,Liverpool,,,,26-27,False,api
+2026-12-30,Ipswich Town,Chelsea,,,,26-27,False,api
 2027-01-01,Leeds United,Everton,,,,26-27,False,api
-2027-01-02,Bournemouth,Aston Villa,,,,26-27,False,api
-2027-01-02,Liverpool,Coventry City,,,,26-27,False,api
-2027-01-02,Sunderland,Hull City,,,,26-27,False,api
-2027-01-02,Nottingham Forest,Fulham,,,,26-27,False,api
-2027-01-02,Brentford,Crystal Palace,,,,26-27,False,api
 2027-01-02,Brighton & Hove Albion,Manchester United,,,,26-27,False,api
+2027-01-02,Brentford,Crystal Palace,,,,26-27,False,api
 2027-01-02,Arsenal,Ipswich Town,,,,26-27,False,api
+2027-01-02,Sunderland,Hull City,,,,26-27,False,api
+2027-01-02,Liverpool,Coventry City,,,,26-27,False,api
+2027-01-02,Nottingham Forest,Fulham,,,,26-27,False,api
+2027-01-02,Bournemouth,Aston Villa,,,,26-27,False,api
 2027-01-03,Chelsea,Newcastle United,,,,26-27,False,api
 2027-01-03,Manchester City,Tottenham Hotspur,,,,26-27,False,api
-2027-01-05,Sunderland,Liverpool,,,,26-27,False,api
 2027-01-05,Arsenal,Brentford,,,,26-27,False,api
 2027-01-05,Brighton & Hove Albion,Bournemouth,,,,26-27,False,api
 2027-01-05,Nottingham Forest,Hull City,,,,26-27,False,api
 2027-01-05,Everton,Aston Villa,,,,26-27,False,api
+2027-01-05,Sunderland,Liverpool,,,,26-27,False,api
 2027-01-06,Leeds United,Manchester City,,,,26-27,False,api
 2027-01-06,Ipswich Town,Coventry City,,,,26-27,False,api
-2027-01-06,Fulham,Tottenham Hotspur,,,,26-27,False,api
 2027-01-06,Crystal Palace,Chelsea,,,,26-27,False,api
+2027-01-06,Fulham,Tottenham Hotspur,,,,26-27,False,api
 2027-01-07,Manchester United,Newcastle United,,,,26-27,False,api
-2027-01-16,Newcastle United,Fulham,,,,26-27,False,api
-2027-01-16,Hull City,Arsenal,,,,26-27,False,api
-2027-01-16,Liverpool,Crystal Palace,,,,26-27,False,api
 2027-01-16,Coventry City,Everton,,,,26-27,False,api
-2027-01-16,Tottenham Hotspur,Leeds United,,,,26-27,False,api
-2027-01-16,Brentford,Brighton & Hove Albion,,,,26-27,False,api
-2027-01-16,Chelsea,Sunderland,,,,26-27,False,api
 2027-01-16,Manchester City,Nottingham Forest,,,,26-27,False,api
-2027-01-16,Bournemouth,Ipswich Town,,,,26-27,False,api
+2027-01-16,Chelsea,Sunderland,,,,26-27,False,api
+2027-01-16,Liverpool,Crystal Palace,,,,26-27,False,api
+2027-01-16,Hull City,Arsenal,,,,26-27,False,api
+2027-01-16,Newcastle United,Fulham,,,,26-27,False,api
 2027-01-16,Aston Villa,Manchester United,,,,26-27,False,api
-2027-01-23,Fulham,Aston Villa,,,,26-27,False,api
-2027-01-23,Crystal Palace,Tottenham Hotspur,,,,26-27,False,api
-2027-01-23,Brighton & Hove Albion,Manchester City,,,,26-27,False,api
-2027-01-23,Manchester United,Liverpool,,,,26-27,False,api
-2027-01-23,Leeds United,Chelsea,,,,26-27,False,api
-2027-01-23,Ipswich Town,Hull City,,,,26-27,False,api
-2027-01-23,Nottingham Forest,Bournemouth,,,,26-27,False,api
-2027-01-23,Sunderland,Coventry City,,,,26-27,False,api
-2027-01-23,Everton,Brentford,,,,26-27,False,api
+2027-01-17,Bournemouth,Ipswich Town,,,,26-27,False,api
+2027-01-17,Tottenham Hotspur,Leeds United,,,,26-27,False,api
+2027-01-18,Brentford,Brighton & Hove Albion,,,,26-27,False,api
 2027-01-23,Arsenal,Newcastle United,,,,26-27,False,api
+2027-01-23,Brighton & Hove Albion,Manchester City,,,,26-27,False,api
+2027-01-23,Ipswich Town,Hull City,,,,26-27,False,api
+2027-01-23,Fulham,Aston Villa,,,,26-27,False,api
+2027-01-24,Everton,Brentford,,,,26-27,False,api
+2027-01-24,Sunderland,Coventry City,,,,26-27,False,api
+2027-01-24,Nottingham Forest,Bournemouth,,,,26-27,False,api
+2027-01-24,Crystal Palace,Tottenham Hotspur,,,,26-27,False,api
+2027-01-24,Manchester United,Liverpool,,,,26-27,False,api
+2027-01-25,Leeds United,Chelsea,,,,26-27,False,api
 2027-01-30,Chelsea,Nottingham Forest,,,,26-27,False,api
-2027-01-30,Manchester City,Arsenal,,,,26-27,False,api
-2027-01-30,Liverpool,Everton,,,,26-27,False,api
-2027-01-30,Bournemouth,Fulham,,,,26-27,False,api
 2027-01-30,Aston Villa,Ipswich Town,,,,26-27,False,api
-2027-01-30,Hull City,Crystal Palace,,,,26-27,False,api
+2027-01-30,Liverpool,Everton,,,,26-27,False,api
 2027-01-30,Newcastle United,Brighton & Hove Albion,,,,26-27,False,api
-2027-01-30,Brentford,Manchester United,,,,26-27,False,api
-2027-01-30,Tottenham Hotspur,Sunderland,,,,26-27,False,api
-2027-01-30,Coventry City,Leeds United,,,,26-27,False,api
+2027-01-31,Bournemouth,Fulham,,,,26-27,False,api
+2027-01-31,Tottenham Hotspur,Sunderland,,,,26-27,False,api
+2027-01-31,Hull City,Crystal Palace,,,,26-27,False,api
+2027-01-31,Coventry City,Leeds United,,,,26-27,False,api
+2027-01-31,Manchester City,Arsenal,,,,26-27,False,api
+2027-02-01,Brentford,Manchester United,,,,26-27,False,api
 2027-02-06,Leeds United,Bournemouth,,,,26-27,False,api
 2027-02-06,Crystal Palace,Coventry City,,,,26-27,False,api
 2027-02-06,Nottingham Forest,Brentford,,,,26-27,False,api
