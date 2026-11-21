@@ -2003,7 +2003,7 @@ match_id,date,home_team_id,away_team_id,home_goals,away_goals,result,season,play
 2001,2026-11-21,3,22,,,,26-27,False,pending
 2002,2026-11-21,7,14,,,,26-27,False,pending
 2003,2026-11-21,8,9,,,,26-27,False,pending
-2004,2026-11-21,18,11,,,,26-27,False,pending
+2004,2026-11-21,18,11,1.0,1.0,D,26-27,True,test
 2005,2026-11-21,20,1,,,,26-27,False,pending
 2006,2026-11-21,26,13,,,,26-27,False,pending
 2007,2026-11-22,12,5,,,,26-27,False,pending
