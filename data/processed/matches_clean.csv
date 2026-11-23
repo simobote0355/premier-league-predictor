@@ -2006,8 +2006,8 @@ date,home_team,away_team,home_goals,away_goals,result,season,played,source
 2026-11-21,Tottenham Hotspur,Ipswich Town,2,0,H,26-27,True,api
 2026-11-21,Coventry City,Crystal Palace,3,2,H,26-27,True,api
 2026-11-21,Newcastle United,Arsenal,2,2,D,26-27,True,api
-2026-11-22,Liverpool,Manchester United,,,,26-27,False,api
-2026-11-22,Hull City,Brighton & Hove Albion,,,,26-27,False,api
+2026-11-22,Liverpool,Manchester United,4,0,H,26-27,True,api
+2026-11-22,Hull City,Brighton & Hove Albion,2,0,H,26-27,True,api
 2026-11-23,Brentford,Everton,,,,26-27,False,api
 2026-11-27,Nottingham Forest,Chelsea,,,,26-27,False,api
 2026-11-28,Leeds United,Coventry City,,,,26-27,False,api
